@@ -1,0 +1,32 @@
+html, body {
+  background: black;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.character {
+  bottom: 0;
+  height: 300px;
+  position: absolute;
+  width: 300px;
+}
+
+.mario {
+  background: url('http://2.bp.blogspot.com/--eKaDgaefgk/U6yayPnDbSI/AAAAAAAABF8/2_oSIBP_3NQ/s1600/Mario.svg-g3438-4294966652.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  left: 0;
+}
+
+.luigi {
+  background: url('https://mbtskoudsalg.com/images/paper-luigi-png-4.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  right: 0;
+  transform: rotateY(180deg);
+}
