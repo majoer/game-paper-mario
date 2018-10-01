@@ -29,10 +29,10 @@ const luigiState = {
 
 function initializePositions() {
   marioState.ref.style.left = '0px';
-  marioState.ref.style.bottom = '500px';
+  marioState.ref.style.bottom = '0px';
 
   luigiState.ref.style.left = '800px';
-  luigiState.ref.style.bottom = '100px';
+  luigiState.ref.style.bottom = '0px';
   luigiState.ref.style.transform = 'rotateY(180deg)';
 }
 
